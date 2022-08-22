@@ -6,9 +6,23 @@ using namespace std;
 class Game
 {
     private:
-        int Win_check(char in1, char in2){
+        int letter_check(char num){
+            switch(num){
+                case 'S':
+                    return 1;
+                case 'P':
+                    return 2;
+                case 'R':
+                    return 4;
+                default:
+                    return 3;
+            }
+        }
+        int win_check(char in1, char in2){
             
         }
+    public:
+        int game_run = 1;
 };
 class Player
 {
