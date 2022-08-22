@@ -13,3 +13,5 @@ int main(){
         
     }
 }
+//                case 'i':
+//                    return 100;
